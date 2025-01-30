@@ -1,8 +1,8 @@
-# 🏬 StreetChaos - Loja Streetwear (Single Page)
+#  StreetChaos - Loja Streetwear (Single Page)
 
 StreetChaos é uma **página única responsiva** desenvolvida com **HTML, CSS e Bootstrap**, criada para apresentar uma loja de roupas streetwear de forma moderna e dinâmica.
 
-![StreetChaos Banner](./icon/apple-icon-114x114.png>)
+![StreetChaos Banner](./icon/apple-icon-114x114.png)
 
 ## 📖 Sobre o Projeto
 
