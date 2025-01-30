@@ -4,11 +4,11 @@ StreetChaos é uma **página única responsiva** desenvolvida com **HTML, CSS e 
 
 ![StreetChaos Banner](./icon/apple-icon-114x114.png)
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto foi desenvolvido para demonstrar um site simples, estiloso e responsivo para uma loja de roupas. Ele inclui seções essenciais para apresentar os produtos, a equipe e facilitar o contato com os clientes.
 
-## 🎨 Funcionalidades
+##  Funcionalidades
 
 ✅ **Banner Principal** - Destaques 
 ✅ **Produtos Populares** - Exibição organizada dos produtos mais vendidos  
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido para demonstrar um site simples, estiloso e respon
 ✅ **Nossa Equipe** - Apresentação dos membros do time  
 ✅ **Contato** - Informações e redes sociais no footer  
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **HTML5** - Estrutura da página  
 - **CSS3** - Estilização personalizada  
