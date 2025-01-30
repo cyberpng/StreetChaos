@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+<link rel="manifest" href="icon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS-->
+  <link rel="stylesheet" href="style.css">
+  <title>StreetChaos</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <header>
+    <section>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a href="index.html"><img class="navbar-img"
+              src="https://i.pinimg.com/564x/52/b2/b0/52b2b0bcf8c5b138bd1f697c6d4bbe33.jpg" alt="Logo do site"></a>
+          <p class="navbar-brand d-none d-md-block"><a href="index.html">StreetChaos</a></p>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav text-center ml-auto">
+              <li class="nav-item"><a href="#about-area" class="nav-link">Quem somos</a></li>
+              <li class="nav-item"><a href="#products" class="nav-link">Nossos Produtos</a></li>
+              <li class="nav-item"><a href="#team" class="nav-link">Nosso time</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+  <!--FINAL DA NAVBAR-->
+
+  <section class="seperator-wrapper">
+    <div class="seperator gradient">
+    </div>
+  </section>
+
+  <!-- CAROUSEL-->
+
+  <main>
+    <section>
+      <div class="container-fluid allcarousel">
+        <div id="mainSlider" class="carousel" data-ride="carousel">
+          <!-- Sliders -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images2.imgbox.com/4b/46/ex4AyFks_o.jpg" class="d-block w-100"
+                alt="Imagens de um produto">
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://images2.imgbox.com/01/38/pnJrd33M_o.jpg" class="d-block w-100"
+                alt="Imagens de um produto">
+
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://images2.imgbox.com/e0/9c/7iM5TEgF_o.jpg" class="d-block w-100"
+                alt="Imagens de um produto">
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://images2.imgbox.com/a3/68/sTRdWjvW_o.jpg" class="d-block w-100"
+                alt="Imagens sobre o produto">
+            </div>
+          </div>
+          <!-- /.Sliders -->
+
+          <!-- Left & Right Controls-->
+          <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          <div class="arrow"></div>
+          <!-- /.Controls -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- NOSSOS PRODUTOS -->
+    <div class="container">
+      <section class="products-area" id="products">
+        <p id="products-main-title">Produtos Populares</p>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/01/a4/WwPUFXum_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/1b/95/peihBVR4_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">T-shirt Unissex</a></p>
+                <div class="price">R$56,96</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/88/90/xUshIOIE_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/ab/52/u80dyn0P_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Short Masculino</a></p>
+                <div class="price">R$74,89</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/8d/79/RuowESkH_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/ac/23/hVX5b1xr_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Moletom Unissex</a></p>
+                <div class="price">R$93,44</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/53/46/Y8kQlxTk_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/b0/6d/oQepdkeq_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Calça Jeans Reta Masculina</a></p>
+                <div class="price">R$123,55</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/63/ae/L4VihZQL_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/dc/c9/QDdy7qlM_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Calça Cargo Wide-leg Unissex</a></p>
+                <div class="price">R$158,42</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/9e/df/rY9bW9Z8_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/94/86/58sIB5mT_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Camiseta Oversized Unissex</a></p>
+                <div class="price">R$43,90</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/da/0a/rZjpMlUF_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/13/64/jzVG18oe_o.png"
+                    alt="Product Image">
+                </a>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Jaqueta Jeans Manga Curta</a></p>
+                <div class="price">R$153,54</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="card-img-top pic-1" src="https://images2.imgbox.com/24/01/xQ5wYUIo_o.png"
+                    alt="Product Image">
+                  <img class="card-img-top pic-2" src="https://images2.imgbox.com/ac/af/b7gQtKqu_o.png"
+                    alt="Product Image">
+                </a>
+                <span class="product-sale-label">Promoção</span>
+                <a href="#" class="product-like-icon" data-tip="Favoritos">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <ul class="product-links">
+                  <li><a href="#"><i class="bi bi-search"></i></a></li>
+                  <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                  <li><a href="#"><i class="bi bi-shuffle"></i></a></li>
+                </ul>
+              </div>
+              <div class="card-body product-content">
+                <p class="card-title title"><a href="#">Calça Jeans Preta Masculina</a></p>
+                <div class="price"><span>R$272,38</span> R$136,16</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="main-title">Quem somos?</h5>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="https://i.pinimg.com/564x/c3/ed/11/c3ed1114c14c4525a771aecf6381456e.jpg"
+                alt="">
+            </div>
+            <div class="col-md-6">
+              <h5 class="about-title">"Combinamos qualidade, originalidade e um toque de rebeldia - somos a sua loja de
+                streetwear."</h5>
+              <p class="about-p">Bem-vindo à StreetChaos, sua nova referência em moda streetwear online! Somos uma
+                equipe apaixonada pela cultura urbana e estamos aqui para oferecer a você uma experiência única de
+                estilo e autenticidade.
+                <br>Nós respiramos streetwear.<br> Acreditamos que a moda é uma forma de arte, uma maneira de expressar
+                sua individualidade e capturar a essência da cultura urbana.
+                Seja você um entusiasta do hip-hop, skatista, amante da cultura urbana ou simplesmente alguém que busca
+                um visual autêntico e descolado, estamos aqui para ajudá-lo a encontrar as peças perfeitas que
+                complementam sua identidade e estilo de vida.
+                Explore nossa coleção, encontre sua vibe e faça uma declaração ousada de estilo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.ABOUT -->
+
+    <!-- Nosso time -->
+    <section>
+      <div id="team">
+        <div class="py-5 team4">
+          <div class="container">
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-7 text-center">
+                <p class="mb-3" id="title">Nossa Equipe</p>
+                <p class="subtitle-1">Conheça as pessoas por trás da nossa marca</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 mb-4">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <img src="https://images2.imgbox.com/46/12/407JcLi2_o.jpg" alt="Imagem do Designer da marca"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <p class="name mt-4 font-weight-medium mb-0">John Doe</p>
+                      <p class="subtitle mb-3">Designer</p>
+                      <p>"A moda é uma forma de expressão e autenticidade."</p>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <img src="https://images2.imgbox.com/c9/9c/zZuaywEr_o.jpg" alt="Imagem da Estilista da marca"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <h5 class="name mt-4 font-weight-medium mb-0">Jane Smith</h5>
+                      <h6 class="subtitle mb-3">Estilista</h6>
+                      <p>"Apaixone-se pelo poder transformador da moda."</p>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <img src="https://images2.imgbox.com/66/95/t5sedwAl_o.jpg"
+                      alt="Imagem do Gerente de Vendas da marca" class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <h5 class="name mt-4 font-weight-medium mb-0">Mark Jhonson</h5>
+                      <h6 class="subtitle mb-3">Gerente de Vendas</h6>
+                      <p>"Acreditamos que a moda streetwear une estilo e atitude."</p>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <img src="https://images2.imgbox.com/7d/62/A4g4TBo7_o.jpg"
+                      alt="Imagem da responsável pelo marketing da marca" class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <h5 class="name mt-4 font-weight-medium mb-0">Sarah Adams</h5>
+                      <h6 class="subtitle mb-3">Marketing</h6>
+                      <p>"Nosso objetivo é levar a moda urbana para todos, sem limites."</p>
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i
+                              class="bi bi-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+       <!-- FOOTER  -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <p class="footer-heading"><a href="#" class="logo">StreetChaos</a></p>
+            <p class="contato-footer">Contato</p>
+            <ul class="contato">
+             <li>Endereço</li> <p>Avenida das Modas, 456 Bairro Fashion Center <br>Cidade da Moda, Estado da Tendência <br> CEP 98765-432</p>
+             <li>Telefone</li> <p>(11) 91234-5678</p>
+            </ul>
+						<ul class="ftco-footer-social p-0">
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="bi bi-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="bi bi-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="bi bi-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<p class="copyright">
+					  Desenvolvido por Larissa Silva</p>
+					</div>
+				</div>
+      </div>  
+    </footer>
+
+      <!-- FIM FOOTER -->
+
+</body>
+
+</html>
